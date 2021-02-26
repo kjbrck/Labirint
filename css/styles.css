@@ -1,0 +1,60 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+@font-face {
+  font-family: MinecraftFont;
+  src: url(../fonts/Minecrafter.Alt.ttf);
+}
+
+h1{
+	font-size:60px;
+	font-family:MinecraftFont;
+	text-align:center;
+}
+
+#maze{
+	position:absolute;
+	left:37%;
+	top:35%;
+	width:484px;
+	height:484px;
+	background-image:url(../img/stone.jpg);
+	border: solid 2px white;
+}
+
+body{
+	background-image:url(../img/backgroundpng.png);
+}
+
+#bed{
+	position:absolute;
+	left:48%;
+	top:87.5%;
+	width:100px;
+	height:73px;
+	border:white solid 2px;
+}
+
+#bedimg{
+	max-width: 100%;
+    max-height: 100%;
+}
+
+#imgButton{
+	max-width: 100%;
+    max-height: 100%;
+}
+
+#imgButton:hover{
+	opacity:80%;
+	cursor:pointer;
+}
+
+#divButton{
+	position:absolute;
+	left:46%;
+	top:20%;
+	border:white solid 2px;
+}
